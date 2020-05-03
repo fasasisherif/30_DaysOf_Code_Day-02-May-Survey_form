@@ -1,0 +1,157 @@
+html{
+		scroll-behavior:smooth;
+		}
+body{
+		margin:0;
+		padding:0;
+		font-family:"Baloo Da 2";
+	 background-image:url(weblogo.png);
+	 background-position:center;
+		background-size:cover;
+		}
+.top{
+		background-color:#f4f4f4;
+		display:flex;
+		justify-content:space-between;
+		border-bottom:1px solid #dbdbdb;
+		}
+.ecx{
+		width:40%;
+		}
+.ecx, .ham{
+		padding:10px;
+		font-size:28px;
+		align-self:center;
+		text-alig:center;
+		}
+.dropdown1, .dropdown2{
+		width:0;
+		height:0;
+		transition:height 1s ease;
+		overflow:hidden;
+		}
+.one, .two, .three, .four{
+		text-align:center;
+		padding:15px;
+		font-size:18px;
+		border-bottom:.5px solid #dbdbdb;
+		background-color:#f4f3f4;
+		}
+.one:hover, .two:hover, .three:hover, .four:hover{
+		background-color:lightblue;
+		}
+.det{
+		text-align:center;
+		font-size:30px;
+		padding:10px;
+		}
+.first{
+		width:90%;
+		background-color:#f4f4f4;
+		padding:45px 5px;
+		margin:auto;
+		border:1px double #dbdbdb;
+		border-radius:5px;
+		}
+label, input{
+		display:block;
+		text-alig:center;
+		margin:auto;
+		padding:10px;
+		}
+label{
+		width:85%;
+		font-size:18px;
+		}
+input{
+		width:85%;
+		outline: none;
+		border:1px double #dbdbdb;
+		border-radius:5px;
+		}
+#name, .mytrack{
+		margin-bottom:2pc;
+		}
+.second{
+		width:90%;
+		background-color:#f4f4f4;
+		padding:45px 5px;
+		margin:5pc auto;
+		border:1px double #dbdbdb;
+		}
+.dropdown2{
+   width:90%;
+   margin:auto;
+		}
+.five, .six, .seven, .eight, .nine, .ten, .eleven{
+		width:80%;
+		text-align:center;
+		padding:15px;
+		margin:auto;
+		border-radius:15px;
+		}
+.five{
+		background-color:#f4f4f4;
+		border:1px double #dbdbdb;
+		border-radius:5px;
+		}
+.six{
+		background-color:#23a0d1;
+		}
+.seven{
+		background-color:#925ed8;
+		}		
+.eight{
+		background-color:#114155;
+		color:white;
+		}
+.nine{
+		background-color:#a2d977;
+		}
+.ten{
+		background-color:#db7d38;
+		}
+.eleven{
+		background-color:#deac6c;
+		}
+.comment{
+		width:100%;
+		margin:3pc auto;
+		}
+.mycomment{
+		border:1px double #dbdbdb;
+		font-size:20px;
+		height:200px;
+		overflow:auto;
+		border:1px double #dbdbdb;
+		}
+.me{
+		background-color:#f4f4f4;
+		border:1px double #dbdbdb;
+		border-radius:5px;
+		}
+.good{
+		font-weight:bold;
+		width:80%;
+		margin:3pc auto;
+		padding:20px;
+		text-align:center;
+		font-size:30px;
+		}
+a{
+		text-decoration:none;
+		color:black;
+		}
+
+
+
+@media(min-width:768px){
+.first, .second, #ola, #intention{
+		width:50%;
+		}	
+#ola, #intention{
+		margin:auto;
+		}		
+	}
+
+
